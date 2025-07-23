@@ -15,7 +15,9 @@ export default function Hero() {
       />
       <h1>Швидкість. Пристрасть. Перемога.</h1>
       <p>Ласкаво просимо у світ професійних картингів, сповнений адреналіну.</p>
-      <Button variant="default">Приєднатися до команди</Button>
+      <Button variant="default" className="mb-10">
+        Приєднатися до команди
+      </Button>
     </>
   )
 }
