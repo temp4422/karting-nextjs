@@ -12,8 +12,8 @@ const inter = Inter({ subsets: ['latin'], display: 'optional' })
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Alpen Krokus Hotel',
-    default: 'Alpen Krokus Hotel',
+    template: '%s | Speed. Passion. Victory.',
+    default: 'Speed. Passion. Victory.',
   },
   description:
     'Alepn Krokus hotel near Bukovel features apartment rooms; suites in one of the region’s most prominent ski resort areas. Enjoy your stay',
