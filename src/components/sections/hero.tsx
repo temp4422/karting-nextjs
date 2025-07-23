@@ -4,10 +4,18 @@ import { Button } from '@/components/ui/button'
 export default function Hero() {
   return (
     <>
-      <ExportedImage src="images/screenshot.jpg" alt="Large Image" width={500} height={500} />;
-      <h1>Speed. Passion. Victory.</h1>
-      <p>Welcome to the adrenaline-fueled world of professional kart racing.</p>
-      <Button variant="outline"> Join the Team</Button>
+      <ExportedImage
+        src="images/hero.jpg"
+        alt="Kart Racing Hero Image"
+        fetchPriority="high"
+        loading="eager"
+        width={1024}
+        height={768}
+        sizes="100vw"
+      />
+      <h1>Швидкість. Пристрасть. Перемога.</h1>
+      <p>Ласкаво просимо у світ професійних картингів, сповнений адреналіну.</p>
+      <Button variant="default">Приєднатися до команди</Button>
     </>
   )
 }
