@@ -10,7 +10,7 @@ import {
 
 export default function Drivers() {
   return (
-    <>
+    <section>
       <h2>Знайомтесь з водіями</h2>
       <Carousel>
         <CarouselContent>
@@ -27,7 +27,7 @@ export default function Drivers() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-    </>
+    </section>
   )
 }
 function DriverCard({

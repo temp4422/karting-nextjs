@@ -1,6 +1,6 @@
 export default function Sponsors() {
   return (
-    <>
+    <section>
       <h2>Спонсори та Партнери</h2>
 
       <p>
@@ -17,6 +17,6 @@ export default function Sponsors() {
           Telegram
         </a>
       </p>
-    </>
+    </section>
   )
 }

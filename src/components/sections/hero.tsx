@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 
 export default function Hero() {
   return (
-    <>
+    <section>
       <ExportedImage
         src="images/hero.jpg"
         alt="Kart Racing Hero Image"
@@ -18,6 +18,6 @@ export default function Hero() {
       <Button variant="default" className="mb-10">
         Приєднатися до команди
       </Button>
-    </>
+    </section>
   )
 }

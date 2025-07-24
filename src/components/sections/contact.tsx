@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <>
+  <section>
       <h2>Контакти</h2>
       <div className="container mx-auto px-4 py-8 flex items-center gap-4">
         {/* Facebook */}
@@ -75,6 +75,6 @@ export default function Contact() {
           />
         </a>
       </div>
-    </>
+    </section>
   )
 }

@@ -17,16 +17,13 @@ export default function Gallery() {
     .map((filename) => `/images/gallery/${filename}`)
 
   return (
-    <>
+    <section>
       <h2>Галерея</h2>
       <Carousel>
         <CarouselContent>
           {images.map((image: string, index: number) => {
             return (
-              <CarouselItem
-                key={index}
-                className="md:basis-1/2 lg:basis-1/3 flex flex-col items-center"
-              >
+              <CarouselItem key={index} className="basis-1/3  flex flex-col items-center">
                 <ExportedImage
                   src={image}
                   alt={'image of' + image}
@@ -41,6 +38,6 @@ export default function Gallery() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-    </>
+    </section>
   )
 }

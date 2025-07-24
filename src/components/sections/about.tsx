@@ -2,7 +2,7 @@ import ExportedImage from 'next-image-export-optimizer'
 
 export default function About() {
   return (
-    <>
+    <section>
       <h2>Про команду</h2>
       <ExportedImage
         src="/images/kart-team.jpg"
@@ -16,6 +16,6 @@ export default function About() {
         місія: розширювати межі, вигравати гонки та надихати наступне покоління ентузіастів
         автоспорту.
       </p>
-    </>
+    </section>
   )
 }
