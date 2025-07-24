@@ -8,7 +8,7 @@ export default function Contact() {
           <img
             className="w-10 [filter:hue-rotate(310deg)] hover:grayscale hover:brightness-75 transition-all"
             src="/images/social-icons/facebook-logo.svg"
-            alt=""
+            alt="Facebook Icon"
           />
         </a>
 
@@ -17,7 +17,7 @@ export default function Contact() {
           <img
             className="w-10 [filter:hue-rotate(180deg)] hover:grayscale hover:brightness-75 transition-all"
             src="/images/social-icons/instagram-logo.svg"
-            alt=""
+            alt="Instagram Icon"
           />
         </a>
 
@@ -26,16 +26,16 @@ export default function Contact() {
           <img
             className="w-10 [filter:hue-rotate(180deg)] hover:grayscale hover:brightness-75 transition-all"
             src="/images/social-icons/gmail-logo.svg"
-            alt="Gmail"
+            alt="Gmail Icon"
           />
         </a>
 
         {/* Messenger */}
         <a href="https://m.me/yourusername">
           <img
-            className="w-10 [filter:hue-rotate(180deg)] hover:grayscale hover:brightness-75 transition-all"
+            className="w-10 [filter:hue-rotate(250deg)] hover:grayscale hover:brightness-75 transition-all"
             src="/images/social-icons/messenger-logo.svg"
-            alt="Messenger"
+            alt="Messenger Icon"
           />
         </a>
 
@@ -44,7 +44,7 @@ export default function Contact() {
           <img
             className="w-10 [filter:hue-rotate(320deg)] hover:grayscale hover:brightness-75 transition-all"
             src="/images/social-icons/telegram-logo.svg"
-            alt="Telegram"
+            alt="Telegram Icon"
           />
         </a>
 
@@ -53,7 +53,7 @@ export default function Contact() {
           <img
             className="w-10 [filter:hue-rotate(290deg)] hover:grayscale hover:brightness-75 transition-all"
             src="/images/social-icons/viber-logo.svg"
-            alt="Viber"
+            alt="Viber Icon"
           />
         </a>
 
@@ -62,7 +62,7 @@ export default function Contact() {
           <img
             className="w-10 [filter:hue-rotate(50deg)] hover:grayscale hover:brightness-75 transition-all"
             src="/images/social-icons/whatsapp-logo.svg"
-            alt="WhatsApp"
+            alt="WhatsApp Icon"
           />
         </a>
 
@@ -71,7 +71,7 @@ export default function Contact() {
           <img
             className="w-10 [filter:hue-rotate(180deg)] hover:grayscale hover:brightness-75 transition-all"
             src="/images/social-icons/youtube-logo.svg"
-            alt="YouTube"
+            alt="YouTube Icon"
           />
         </a>
       </div>
