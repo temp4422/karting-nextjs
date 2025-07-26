@@ -11,8 +11,9 @@ export default function Sponsors() {
       </p>
 
       <p>
-        Якщо ви хочете стати спонсором або партнером нашого клубу, будь ласка, зв'яжіться з нами
-        через{' '}
+        {`Якщо ви хочете стати спонсором або партнером нашого клубу, будь ласка, зв'жіться з нами
+        через
+        `}
         <a className="text-primary underline" href="https://t.me/" target="_blank">
           Telegram
         </a>

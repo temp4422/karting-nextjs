@@ -23,7 +23,7 @@ export default function Gallery() {
         <CarouselContent>
           {images.map((image: string, index: number) => {
             return (
-              <CarouselItem key={index} className="basis-1/3  flex flex-col items-center">
+              <CarouselItem key={index} className="basis-1/2  flex flex-col items-center">
                 <ExportedImage
                   src={image}
                   alt={'image of' + image}
