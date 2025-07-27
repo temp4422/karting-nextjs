@@ -1,4 +1,4 @@
-name: password-generator
+name: karting-nextjs
 
 services:
   app:
@@ -8,7 +8,7 @@ services:
       target: dev
       # dockerfile: Dockerfile
     restart: 'no'
-    container_name: password-generator
+    container_name: karting-nextjs
     ports:
       - 3000:3000
     # env_file: ./.env

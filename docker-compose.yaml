@@ -1,4 +1,4 @@
-name: password-generator
+name: karting-nextjs
 
 services:
   app:
@@ -6,9 +6,9 @@ services:
       context: .
       target: prod
     restart: unless-stopped
-    container_name: password-generator
+    container_name: karting-nextjs
     ports:
-      - 3002:3000
+      - 3003:3000
     # env_file: ./.env.production
     # environment:
     # - DOTENV_KEY=${DOTENV_KEY} # Set in gihub-actions
