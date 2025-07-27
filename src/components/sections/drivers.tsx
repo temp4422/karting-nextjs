@@ -41,7 +41,7 @@ function DriverCard({
 }) {
   return (
     <div className="flex flex-col items-center">
-      <ExportedImage src={img} alt="Driver image" width={300} height={200} sizes="100vw" />
+      <ExportedImage src={img} alt="Driver image" width={200} height={200} sizes="100vw" />
       <p>
         Водій: <b>{name}</b>
       </p>

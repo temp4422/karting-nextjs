@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section>
       <ExportedImage
-        src="images/kart-racer.jpeg"
+        src="images/gallery/kart-racer.jpeg"
         alt="Kart Racing Hero Image"
         fetchPriority="high"
         loading="eager"

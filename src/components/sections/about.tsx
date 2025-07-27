@@ -5,7 +5,7 @@ export default function About() {
     <section>
       <h2>Про команду</h2>
       <ExportedImage
-        src="/images/kart-team-mono.jpg"
+        src="/images/gallery/kart-team-mono.jpg"
         alt="Large Image"
         width={640}
         height={480}
