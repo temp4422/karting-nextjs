@@ -1,3 +1,6 @@
+⚠️ Note: This project uses next-image-export-optimizer which has not yet declared support for Next.js 16. Peer dependency checks are bypassed via `.npmrc` (legacy-peer-deps=true).
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
