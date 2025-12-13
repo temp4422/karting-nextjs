@@ -2,15 +2,16 @@
   "name": "karting-nextjs",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "prebuild": "npm run lint && npm run format",
     "build": "next build && next-image-export-optimizer",
-    "start": "serve ./dist",
+    "start": "serve ./out",
     "start:ssr": "next start",
     "docker:dev": "docker compose -f docker-compose.dev.yaml up --build --watch",
     "docker:prod": "docker compose up -d --build",
-    "lint": "next lint",
+    "lint": "next build && eslint .",
     "format": "prettier --write src/app/"
   },
   "dependencies": {

@@ -2,7 +2,7 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   output: 'export',
-  distDir: 'dist',
+  // distDir: 'dist',
   images: {
     loader: 'custom',
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
   transpilePackages: ['next-image-export-optimizer'],
   env: {
     nextImageExportOptimizer_imageFolderPath: 'public/images',
-    nextImageExportOptimizer_exportFolderPath: 'dist',
+    nextImageExportOptimizer_exportFolderPath: 'out',
     nextImageExportOptimizer_quality: '75',
     nextImageExportOptimizer_storePicturesInWEBP: 'true',
     nextImageExportOptimizer_exportFolderName: 'nextImageExportOptimizer',

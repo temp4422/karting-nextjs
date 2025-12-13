@@ -7,8 +7,8 @@ COPY . .
 RUN npm install
 RUN npm run build
 CMD ["npm", "run", "dev"]
-# CMD ["node", "./dist/app.js"]
-# CMD ["/usr/local/bin/node", "/app/dist/app.js"]
+# CMD ["node", "./out/app.js"]
+# CMD ["/usr/local/bin/node", "/app/out/app.js"]
 
 # Build for production stage
 FROM node:24.4.1-bookworm-slim AS build
@@ -24,6 +24,6 @@ WORKDIR /app
 ENV NODE_ENV production
 COPY --from=build app/node_modules/ node_modules/
 COPY --from=build app/package*.json .
-COPY --from=build app/dist dist/
+COPY --from=build app/out out/
 # COPY --from=build app/.env.vault .
 CMD ["npm", "run", "start"]
