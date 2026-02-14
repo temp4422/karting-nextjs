@@ -11,7 +11,10 @@ services:
     container_name: karting-nextjs
     ports:
       - 3000:3000
-    # env_file: ./.env
+    env_file: ./.env
+    environment:
+      NODE_ENV: development
+      DOTENV_PRIVATE_KEY_PRODUCTION: ${DOTENV_PRIVATE_KEY_PRODUCTION}
     develop:
       watch:
         - action: sync
