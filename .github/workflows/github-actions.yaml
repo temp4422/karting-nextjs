@@ -21,7 +21,7 @@ jobs:
           envs: DOTENV_PRIVATE_KEY_PRODUCTION
           script: |
             cd ~/karting-nextjs
-            git config pull.rebase true # Pull with rebase
+            git config pull.rebase true
             git pull origin main
-            docker compose up -d --build
+            docker compose up --detach --build --force-recreate
             docker image prune --force
