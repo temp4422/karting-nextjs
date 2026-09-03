@@ -1,11 +1,3 @@
-export const teamContent = {
-  name: 'KartingX',
-  eyebrow: 'Концепт команди',
-  title: 'Партнерство, яке рухається вперед',
-  description:
-    'Ми створюємо команду, за якою хочеться стежити: з характером на трасі, відкритістю поза нею та зрозумілою цінністю для локального бізнесу.',
-}
-
 export const drivers = [
   {
     name: 'Гонщик 01',
@@ -25,11 +17,6 @@ export const drivers = [
     image: '/images/driver.jpeg',
     bio: 'Нова генерація, яка вже задає темп.',
   },
-]
-
-export const events = [
-  { date: '18 травня', title: 'Відкритий кубок регіону', location: 'Львів · концепт-подія' },
-  { date: '01 червня', title: 'Командний спринт', location: 'Київ · концепт-подія' },
 ]
 
 export const gallery = [
