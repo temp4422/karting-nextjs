@@ -22,7 +22,7 @@ export default function About() {
           alt="Команда KartingX перед стартом"
           width={640}
           height={480}
-          className="aspect-video w-full object-cover grayscale"
+          className="aspect-video w-full object-cover"
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
       </div>
