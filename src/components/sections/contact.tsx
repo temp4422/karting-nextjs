@@ -1,79 +1,28 @@
 export default function Contact() {
   return (
-    <section>
-      <h2>Контакти</h2>
-      <div className="container mx-auto flex items-center gap-4 px-4 py-8">
-        {/* Facebook */}
-        <a href="https://facebook.com">
-          <img
-            className="w-10 [filter:hue-rotate(310deg)] transition-all hover:brightness-75 hover:grayscale"
-            src="/images/social-icons/facebook-logo.svg"
-            alt="Facebook Icon"
-          />
-        </a>
-
-        {/* Instagram */}
-        <a href="https://instagram.com">
-          <img
-            className="w-10 [filter:hue-rotate(180deg)] transition-all hover:brightness-75 hover:grayscale"
-            src="/images/social-icons/instagram-logo.svg"
-            alt="Instagram Icon"
-          />
-        </a>
-
-        {/* Gmail */}
-        <a href="mailto:example@gmail.com">
-          <img
-            className="w-10 [filter:hue-rotate(180deg)] transition-all hover:brightness-75 hover:grayscale"
-            src="/images/social-icons/gmail-logo.svg"
-            alt="Gmail Icon"
-          />
-        </a>
-
-        {/* Messenger */}
-        <a href="https://m.me/yourusername">
-          <img
-            className="w-10 [filter:hue-rotate(250deg)] transition-all hover:brightness-75 hover:grayscale"
-            src="/images/social-icons/messenger-logo.svg"
-            alt="Messenger Icon"
-          />
-        </a>
-
-        {/* Telegram */}
-        <a href="https://t.me/yourusername">
-          <img
-            className="w-10 [filter:hue-rotate(340deg)] transition-all hover:brightness-75 hover:grayscale"
-            src="/images/social-icons/telegram-logo.svg"
-            alt="Telegram Icon"
-          />
-        </a>
-
-        {/* Viber */}
-        <a href="viber://chat?number=%2B1234567890">
-          <img
-            className="w-10 [filter:hue-rotate(290deg)] transition-all hover:brightness-75 hover:grayscale"
-            src="/images/social-icons/viber-logo.svg"
-            alt="Viber Icon"
-          />
-        </a>
-
-        {/* WhatsApp */}
-        <a href="https://wa.me/1234567890">
-          <img
-            className="w-10 [filter:hue-rotate(50deg)] transition-all hover:brightness-75 hover:grayscale"
-            src="/images/social-icons/whatsapp-logo.svg"
-            alt="WhatsApp Icon"
-          />
-        </a>
-
-        {/* YouTube */}
-        <a href="https://youtube.com/@yourchannel">
-          <img
-            className="w-10 [filter:hue-rotate(180deg)] transition-all hover:brightness-75 hover:grayscale"
-            src="/images/social-icons/youtube-logo.svg"
-            alt="YouTube Icon"
-          />
-        </a>
+    <section id="contact" className="w-full max-w-6xl px-6 py-20 sm:px-12 lg:px-20">
+      <div className="grid gap-8 sm:grid-cols-2">
+        <div>
+          <p className="mb-2 text-sm font-semibold tracking-[0.2em] text-primary uppercase">
+            Звʼязок
+          </p>
+          <h2 className="mt-0 text-4xl">Поговорімо про наступне коло</h2>
+        </div>
+        <div className="flex flex-col items-start gap-3 text-lg">
+          <a
+            className="underline decoration-primary decoration-2 underline-offset-4 hover:text-primary"
+            href="mailto:hello@kartingx.example"
+          >
+            hello@kartingx.example
+          </a>
+          <a
+            className="underline decoration-primary decoration-2 underline-offset-4 hover:text-primary"
+            href="tel:+380000000000"
+          >
+            +38 (000) 000-00-00
+          </a>
+          <p className="text-sm text-muted-foreground">Концепт-проєкт</p>
+        </div>
       </div>
     </section>
   )

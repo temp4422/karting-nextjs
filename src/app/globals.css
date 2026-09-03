@@ -115,8 +115,28 @@
   * {
     @apply border-border outline-ring/50;
   }
+
+  .gallery-image {
+    overflow: hidden;
+    background: #1cadb0;
+  }
+
+  .gallery-image img {
+    display: block;
+    filter: grayscale(1) contrast(1.15);
+    mix-blend-mode: multiply;
+    opacity: 0.86;
+    transition:
+      opacity 300ms ease,
+      transform 300ms ease;
+  }
+
+  .gallery-image:hover img {
+    opacity: 1;
+    transform: scale(1.03);
+  }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
   }
   h1 {
     @apply my-8 text-4xl font-bold;
@@ -135,7 +155,7 @@
   }
 
   section {
-    @apply mb-10 flex flex-col items-center;
+    @apply flex flex-col items-start;
   }
 
   /* button {
