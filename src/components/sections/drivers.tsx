@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import ExportedImage from 'next-image-export-optimizer'
 import {
@@ -8,7 +8,27 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel'
-import { drivers } from '@/lib/content'
+
+export const drivers = [
+  {
+    name: 'Гонщик 01',
+    className: 'Юніор',
+    image: '/images/driver.jpeg',
+    bio: 'Точна траєкторія та спокій під тиском.',
+  },
+  {
+    name: 'Гонщик 02',
+    className: 'Сеньйор',
+    image: '/images/driver.jpeg',
+    bio: 'Атакує кожен поворот і читає гонку на кілька кіл уперед.',
+  },
+  {
+    name: 'Гонщик 03',
+    className: 'Юніор',
+    image: '/images/driver.jpeg',
+    bio: 'Нова генерація, яка вже задає темп.',
+  },
+]
 
 export default function Drivers() {
   return (

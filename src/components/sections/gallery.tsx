@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import Autoplay from 'embla-carousel-autoplay'
 import ExportedImage from 'next-image-export-optimizer'
@@ -9,7 +9,34 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel'
-import { gallery } from '@/lib/content'
+
+// // Alternative image loading approach using fs to read images from the public folder.
+// import * as fs from 'fs'
+// import Carousel from '@/components/carousel'
+// const cakes = fs
+//   .readdirSync('./public/images/cakes/')
+//   .filter((filename) => filename !== 'nextImageExportOptimizer')
+//   .map((filename) => `/images/cakes/${filename}`)
+// export default function CarouselWithImages() {
+//   return (
+//     <>
+//       <Carousel images={cakes} id={'carousel1'} />
+//     </>
+//   )
+// }
+
+const gallery = [
+  { src: '/images/gallery/hero_mod1.jpg', alt: 'Гонщик KartingX на трасі' },
+  { src: '/images/gallery/kart-racer.jpeg', alt: 'Гонщик входить у поворот' },
+  { src: '/images/gallery/racer.jpeg', alt: 'Картинг на гоночній трасі' },
+  { src: '/images/gallery/kart-team-mono.jpg', alt: 'Команда перед стартом' },
+  { src: '/images/gallery/team.jpeg', alt: 'Командна робота в паддоку' },
+  { src: '/images/gallery/go-kart.jpg', alt: 'Карт на гоночній трасі' },
+  { src: '/images/gallery/kart-race.jpg', alt: 'Гонщики змагаються на трасі' },
+  { src: '/images/gallery/kart-race-2.jpg', alt: 'Гонщики змагаються на трасі' },
+  { src: '/images/gallery/karting-paddock.jpg', alt: 'Карти команди в паддоку' },
+  { src: '/images/gallery/kart-start.jpg', alt: 'Старт картингової гонки' },
+]
 
 export default function Gallery() {
   return (
