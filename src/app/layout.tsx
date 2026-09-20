@@ -12,12 +12,13 @@ const inter = Inter({ subsets: ['latin'], display: 'optional' })
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Speed. Passion. Victory.',
-    default: 'Speed. Passion. Victory.',
+    template: '%s | KartingX',
+    default: 'KartingX',
   },
   description:
-    'Alepn Krokus hotel near Bukovel features apartment rooms; suites in one of the region’s most prominent ski resort areas. Enjoy your stay',
-  keywords: 'alpen krokus, hotel, apartment, bukovel, ski, accomodation, vacation',
+    'KartingX brings the thrill of speed racing to life with premium karting experiences, competitive tracks, and adrenaline-filled events for drivers of every level.',
+  keywords:
+    'karting, speed racing, kartingX, race track, motorsport, driving experience, competition',
   metadataBase: new URL('https://localhost'),
   // i18n
   // alternates: {
@@ -30,13 +31,13 @@ export const metadata: Metadata = {
   // og:title & og:description got automatically from title & description
   openGraph: {
     title: {
-      template: '%s | Alpen Krokus Hotel',
-      default: 'Alpen Krokus Hotel',
+      template: '%s | KartingX',
+      default: 'KartingX',
     },
     description:
-      'Alepn Krokus hotel near Bukovel features apartment rooms; suites in one of the region’s most prominent ski resort areas. Enjoy your stay',
+      'KartingX brings the thrill of speed racing to life with premium karting experiences, competitive tracks, and adrenaline-filled events for drivers of every level.',
     url: '/', // merged with `metadataBase`
-    images: '/svg/alpen-krokus-logo.svg',
+    // images: '/svg/alpen-krokus-logo.svg',
     // videos: 'video_url'
   },
   // Example with myMeta object
